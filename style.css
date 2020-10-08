@@ -418,3 +418,33 @@ html {
   max-width: 100%;
 }
 /*End of Contact*/
+/*Footer*/
+.footer {
+  background-color: var(--grey-color);
+  padding: 1rem 0 1rem 0;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-link {
+  font-size: 1rem;
+  color: var(--white-color);
+  margin: 0 1rem;
+  background-color: var(--grey-color);
+  padding: 0.3rem 2rem;
+  letter-spacing: 0.1rem;
+  transition: all 0.2s;
+}
+.footer-link:hover {
+  transform: rotate(-10deg);
+  box-shadow: 0 2rem 3rem #000;
+}
+.footer-paragraph {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+}
+/*End of Footer*/
